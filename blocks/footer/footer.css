@@ -1,0 +1,19 @@
+.footer {
+  margin: 64px 16px 0;
+  padding-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 88px 24px 0;
+    align-items: baseline;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    margin: 92px 48px 0;
+  }
+}

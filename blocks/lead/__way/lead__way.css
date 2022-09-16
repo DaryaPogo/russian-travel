@@ -1,0 +1,29 @@
+.lead__way {
+  position: absolute;
+  z-index: 1;
+  top: 29.34px;
+  left: 7.57px;
+  width: 95%;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__way {
+    top: 100.38px;
+    left: 32.39px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__way {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 835.58px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__way {
+    max-width: 886px;
+  }
+}
