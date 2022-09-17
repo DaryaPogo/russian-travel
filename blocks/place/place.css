@@ -5,23 +5,25 @@
 
 @media screen and (min-width:768px) {
   .place {
-    margin: 0 24px 73px;
     grid-template-columns: min-content 1fr;
-    grid-template-rows: repeat(2, minmax(min-content, max-content));
     gap: 48px 28px;
+    margin-bottom: 73px;
+  }
+
+  .place:last-of-type {
+    margin: 0;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .place {
-    margin: 0 48px 80px;
     gap: 48px 32px;
+    margin-bottom: 80px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .place {
-    margin: 0 148px 80px;
     gap: 48px 40px;
   }
 }

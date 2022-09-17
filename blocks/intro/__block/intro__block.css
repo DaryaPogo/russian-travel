@@ -1,6 +1,6 @@
 .intro__block {
     padding: 0 16px;
-    max-width: 720px;
+    text-align: left;
 }
 @media screen and (min-width: 768px) {
     .intro__block {
@@ -10,13 +10,13 @@
   
   @media screen and (min-width: 1024px) {
     .intro__block {
-        padding: 0 48px;
         max-width: 690px;
+        padding: 0;
     }
   }
   
   @media screen and (min-width: 1280px) {
     .intro__block {
-      padding: 0 148px;
+      max-width: 720px;
     }
   }
