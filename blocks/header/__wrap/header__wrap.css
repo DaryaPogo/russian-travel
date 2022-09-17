@@ -1,0 +1,9 @@
+.header__wrap {
+  margin-top: 14px;
+}
+
+@media screen and (min-widtg: 768px) {
+  .header__wrap {
+    margin-top: 18px    ;
+  }  
+}
